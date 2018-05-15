@@ -8,12 +8,12 @@
 
 ### How to run
 
-Please review the installation instructions [here] (https://github.com/udacity/CarND-LaneLines-P1/blob/master/README.md)
+Please review the installation instructions [here](https://github.com/barunks/CarND-LaneLines-P1/blob/master/README.md)
 
 
 ---
 
-The goals of this project are the following:
+The goal of this project are the following:
 
 * Make an image processing pipeline that visualize lane lines on the road
 * Analyze solution for its further improvement
@@ -37,10 +37,10 @@ The goals of this project are the following:
 
 This pipeline consisted of 6 steps:
 
-* Transforma original images to grayscale
+* Transform original images to grayscale
 * Image smoothing using Gaussian filter
 * Edge detection using Canny detector and apply yellow lanes to the edges
-* Selecting the region of interest's
+* Selection of the region of interest
 * Apply hough transformation for line detection
 * Combine initial image with transformed images
 
